@@ -1,73 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-28T01:48:28Z" name="Default suite" finished-at="2022-02-28T01:48:28Z" duration-ms="67">
+  <suite started-at="2022-03-01T15:26:52Z" name="Default suite" finished-at="2022-03-01T15:26:59Z" duration-ms="6408">
     <groups>
     </groups>
-    <test started-at="2022-02-28T01:48:28Z" name="Default test" finished-at="2022-02-28T01:48:28Z" duration-ms="67">
-      <class name="FirstTest">
-        <test-method is-config="true" signature="three()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="three" finished-at="2022-02-28T01:48:28Z" duration-ms="15" status="PASS">
+    <test started-at="2022-03-01T15:26:52Z" name="Default test" finished-at="2022-03-01T15:26:59Z" duration-ms="6408">
+      <class name="org.test.firstTestcasetest">
+        <test-method is-config="true" signature="login()[pri:0, instance:org.test.firstTestcasetest@4278284b]" started-at="2022-03-01T15:26:47Z" name="login" finished-at="2022-03-01T15:26:52Z" duration-ms="4985" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- three -->
-        <test-method is-config="true" signature="seven()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="seven" finished-at="2022-02-28T01:48:28Z" duration-ms="2" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="welcome()[pri:1, instance:org.test.firstTestcasetest@4278284b]" started-at="2022-03-01T15:26:52Z" name="welcome" finished-at="2022-03-01T15:26:57Z" duration-ms="4712" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- seven -->
-        <test-method is-config="true" signature="five()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="five" finished-at="2022-02-28T01:48:28Z" duration-ms="0" status="PASS">
+        </test-method> <!-- welcome -->
+        <test-method signature="adminmenu()[pri:2, instance:org.test.firstTestcasetest@4278284b]" started-at="2022-03-01T15:26:57Z" name="adminmenu" finished-at="2022-03-01T15:26:59Z" duration-ms="1667" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- five -->
-        <test-method signature="one()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="one" finished-at="2022-02-28T01:48:28Z" duration-ms="7" status="PASS">
+        </test-method> <!-- adminmenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.test.firstTestcasetest@4278284b]" started-at="2022-03-01T15:26:59Z" name="teardown" finished-at="2022-03-01T15:26:59Z" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one -->
-        <test-method is-config="true" signature="nine()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="nine" finished-at="2022-02-28T01:48:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nine -->
-        <test-method is-config="true" signature="ten()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="ten" finished-at="2022-02-28T01:48:28Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ten -->
-        <test-method is-config="true" signature="nine()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="nine" finished-at="2022-02-28T01:48:28Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nine -->
-        <test-method signature="two()[pri:2, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="two" finished-at="2022-02-28T01:48:28Z" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-        <test-method is-config="true" signature="ten()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="ten" finished-at="2022-02-28T01:48:28Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ten -->
-        <test-method is-config="true" signature="nine()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="nine" finished-at="2022-02-28T01:48:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nine -->
-        <test-method signature="eleven()[pri:3, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="eleven" finished-at="2022-02-28T01:48:28Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- eleven -->
-        <test-method is-config="true" signature="ten()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="ten" finished-at="2022-02-28T01:48:28Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ten -->
-        <test-method is-config="true" signature="eight()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="eight" finished-at="2022-02-28T01:48:28Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- eight -->
-        <test-method is-config="true" signature="six()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="six" finished-at="2022-02-28T01:48:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- six -->
-        <test-method is-config="true" signature="four()[pri:0, instance:FirstTest@14f9390f]" started-at="2022-02-28T01:48:28Z" name="four" finished-at="2022-02-28T01:48:28Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- four -->
-      </class> <!-- FirstTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- org.test.firstTestcasetest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
