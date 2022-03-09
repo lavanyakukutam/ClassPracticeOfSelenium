@@ -7,6 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.test.Myloginpage;
@@ -14,8 +16,9 @@ import com.test.Myloginpage;
 public class orangehrmlogin {
 	
 	public static ChromeDriver driver;
-	@BeforeSuite
-    public void login()
+	
+   @BeforeTest
+	public void orangehrmlogin()
     {
 	System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
 	 driver = new ChromeDriver();

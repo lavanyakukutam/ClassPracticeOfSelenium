@@ -27,7 +27,7 @@ public class firstTestcasetest extends orangehrmlogin{
 		
 	}
 	@Test(priority = 2)
-	public void adminmenu()
+	public void adminmenu() throws Exception
 	{
 		driver.findElement(By.xpath("//b[text()='Admin']")).click();
 		System.out.println("you clicked Admin");
@@ -35,6 +35,16 @@ public class firstTestcasetest extends orangehrmlogin{
 		driver.findElement(By.xpath("//a[@id='menu_admin_viewSystemUsers']")).click();
 		System.out.println("you clicked admin/usermanagement/users");
 		System.out.println(driver.findElement(By.xpath("//div[@class='head']")).getText());//header of toggletip
+		
+		driver.findElement(By.xpath("//input[@id='btnAdd']")).click();
+		driver.findElement(By.xpath("(//input[@type='text'])[2]")).sendKeys("Robert");
+		driver.findElement(By.xpath("//input[@id='systemUser_password']")).sendKeys("alert1256");
+		driver.findElement(By.xpath("//input[@id='systemUser_confirmPassword']")).sendKeys("alert1256");
+		driver.findElement(By.xpath("//input[@type='button']")).click();
+		driver.findElement(By.xpath("(//input[@type='button'])[4]")).click();
+		Thread.sleep(4000);
+		
+		
 	}
 
 }

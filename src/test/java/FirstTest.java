@@ -13,10 +13,10 @@ public class FirstTest {
 
 	@Test
 	public void one()
-	{
+	{   
 		System.out.println("i am test 1");
 	}
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void two()
 	{
 		System.out.println("i am test 2 ");
