@@ -57,5 +57,6 @@ public class selectableTest {
 		System.out.println("you selected the Grid options: " + one.getText());
 		System.out.println(two.getText());
 		System.out.println(three.getText());
+		driver.close();
 	}
 }

@@ -54,9 +54,7 @@ public class alertsTest {
     	   driver.findElement(By.xpath("(//button[text()='Click me'])[4]")).click();
     	   driver.switchTo().alert().sendKeys("Hello");
     	   driver.switchTo().alert().accept();
-    	   System.out.println("you entered text and accepted  prompt alert");
-    	   
-    	   Thread.sleep(4000);
+    	   System.out.println("you entered text and accepted  prompt alert"); 
     	   driver.close();
        }
     

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="test(failed)">
     <classes>
-      <class name="org.test.firstTestcasetest">
+      <class name="demoqa.test.alertsTest">
         <methods>
-          <include name="adminmenu"/>
-          <include name="orangehrmlogin"/>
-          <include name="teardown"/>
+          <include name="alert3"/>
         </methods>
-      </class> <!-- org.test.firstTestcasetest -->
+      </class> <!-- demoqa.test.alertsTest -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -5,7 +5,7 @@
     <classes>
       <class name="demoqa.test.alertsTest">
         <methods>
-          <include name="alert1"/>
+          <include name="alert3"/>
         </methods>
       </class> <!-- demoqa.test.alertsTest -->
     </classes>

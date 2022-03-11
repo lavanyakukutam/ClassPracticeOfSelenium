@@ -35,6 +35,7 @@ public class tooltipTest{
 		WebElement three= driver.findElement(By.xpath("//a[text()='Contrary']"));
 		action.moveToElement(three).perform();
 		System.out.println("mousehover on contrary ");
+		driver.close();
 		
 		
 	}
